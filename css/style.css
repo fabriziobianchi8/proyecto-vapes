@@ -7,32 +7,23 @@
 
 }
 
-body{
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    grid-template-rows: 100px 1000px 750px 400px;
-    grid-template-areas: 
-    "header header header header"
-    "main main main main"
-    "main main main main"
-    "footer footer footer footer";
-    
-     
-}
+
+
+
 
 header{
     background-color:beige;
     padding: 20px;
-    display: flex;
+    position: relative;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
-    height: 100px;
-    grid-area: header;
+    max-width: 100%;
 }
 
+
+
 .header__logo img{
-    width: 250px;
+    width: 200px;
     display: flex;
     margin: 0;
 
@@ -48,10 +39,6 @@ header{
 .header__nav ul li{
     padding: 0px 20px;
     
-}
-
-main{
-    grid-area: main;
 }
 
 
@@ -79,21 +66,12 @@ main{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
-    margin: 20px 150px
 }
 .tarjeta-producto{
-   width: 33%;
-  
    padding: 20px;
-   border: 1px solid black; 
-   border-radius: 8px; 
+ 
 }
 
-.tarjeta-producto__imagen{
-    width: 100%;
-    border-radius: 8px;  
-}
 
 
 
@@ -111,6 +89,9 @@ a{
     
 }
 
+.tarjeta-producto__imagen{
+    width: 100%;
+}
 .tarjeta-producto__boton{
    background-color: aqua;
    color: black;
@@ -150,7 +131,7 @@ footer{
     line-height: 40px;
 }
 .contenedor-footer p{
-    max-width: 500px;
+    max-width: 100%;
     margin: 10px auto;
     line-height: 28px;
     font-size: 15px ;
@@ -166,12 +147,7 @@ footer{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 16px 0 50px 0;
     
-}
-.socials li{
-    margin: 0 150px;
 }
 
 .socials a{
@@ -253,122 +229,29 @@ footer{
 }
 
 /* ARRANCA PAGINA PRODUCTOS*/
-.home__productos{
+    
+.fondo-p{
     background-image: url(../imagenes/fondo\ productos.jpg);
     width: 100%;
     background-size: cover;
     height: fit-content;
-    height: 10%;
     
 }
    
 
-.blue {
-    text-align: center;
-    
-    
-    
-   }
-   .blue  img{
-       display: inline-block;
-       vertical-align: middle;
-       padding: 1em;
-       max-width: 30%;
-       width: 25%;
-       margin-left: 0px;
-       margin-top: 8%;
+
+.home__productos .blue img{
+       max-width: 50%;
        
    }
-   .blue  h2{
-       display: inline-block;
-       vertical-align: middle;
-       padding: 2em;
-       font-size: 40px;
-       margin-top: 8%;
-     
-   }
-   .blue  p{
-       display: inline-block;
-       max-width: 30%;
-       padding: 2em;
-       vertical-align: middle;
-       text-align: left;
-       margin-top: 8%;
-
-   }
-
-.blue2{
-    text-align: center;
-    margin-top: 50%;
-
-}  
-.blue2 img{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 1em;
-    max-width: 30%;
-    width: 25%;
-    margin-left: 0px;
-}
-.blue2 h2{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 2em;
-    font-size: 40px;
-    color: white;
-}
-.blue2 p{
-    display: inline-block;
-    max-width: 30%;
-    padding: 2em;
-    vertical-align: middle;
-    text-align: left;
-    color: white;
+.home__productos section{
+    margin: 0;
+    margin-top: 40em;
 }
 
-.blue3{
-    text-align: center;
-    margin-top: 45%;
-    padding-bottom: 10em;
-    
-    
+.home__productos .margen {
+    margin-top: 10em;
 }
-.blue3  img{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 1em;
-    max-width: 30%;
-    width: 25%;
-    margin-left: 0px;
-    margin-top: 8%;
-   
-    
-}
-.blue3  h2{
-    display: inline-block;
-    vertical-align: middle;
-    padding: 2em;
-    font-size: 40px;
-    margin-top: 8%;
-  
-}
-.blue3  p{
-    display: inline-block;
-    max-width: 30%;
-    padding: 2em;
-    vertical-align: middle;
-    text-align: left;
-    margin-top: 8%;
-
-}
-
-
-
-
-
-
-
-
 
 
 /* ARRANCA PAGINA NOVEDADES*/
@@ -466,4 +349,64 @@ footer{
     display: flex;
     align-items: center;
 }
+/* -------------------------------------------------------------------------------------------------------------CEL*/
+@media screen and (max-width: 576px) {
+
+    .header__logo {
+        width:100px;
+        height: 100px;
+        position: absolute;
+        top: -25px;
+        left: calc(36% - 17px);
+        z-index: 1;
+        background-repeat: no-repeat;
+     
+    }
     
+    #productos {
+        width: 100%;
+        max-width: 576px;
+    }
+    
+    }
+    /* -------------------------------------------------------------------------------------------------------------TABLET*/
+    @media screen and (min-width: 577px) {
+    
+        /*--------------------------------------------------------------------------------------------------------  hamburguesa tablet */
+        .header__logo {
+            width:100px;
+            height: 100px;
+            position: absolute;
+            top: -25px;
+            left: calc(41% - 17px);
+            z-index: 1;
+            background-repeat: no-repeat;
+     
+      
+        }
+        #productos {
+            width: 100%;
+            max-width: 991px;
+        }
+        }
+    /* -------------------------------------------------------------------------------------------------------------PC*/
+    @media screen and (min-width: 992px) {
+    
+        /* -------------------------------------------------------------------------------------------------------------hamburguesa pc*/
+        .header__logo {
+            width:100px;
+            height: 100px;
+            position: absolute;
+            top:-30%;
+            left:80%;
+            z-index: 20;
+     
+     
+      
+        }
+    
+        .container-fluid {
+            max-width: 100%;
+        }
+        }
+
