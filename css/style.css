@@ -198,10 +198,11 @@ footer{
 
 .contendor__contactos{
     display: flex;
+    
 }
 .texto-div-contactos{
     width: 40%;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 50px;
     font-size: 30px;
 }
@@ -215,7 +216,7 @@ footer{
 
 
 .formulario__contactos{
-    margin-top: 80px
+    margin-top: 150px
 }
 
 
