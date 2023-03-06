@@ -1,0 +1,18 @@
+//general
+@import "./general/tipografia.scss";
+@import "./general/tipografia.scss";
+
+
+//LAYOUT
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+//PAGINAS
+@import "./paginas/contacto.scss";
+@import "./paginas/novedades.scss";
+@import "./paginas/productos.scss";
+@import "./paginas/sobre-nosotros.scss";
+
+h1{
+    white-space: inherit;
+}
