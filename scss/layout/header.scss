@@ -1,0 +1,26 @@
+header {
+	background-color: beige;
+	padding: 20px;
+	position: relative;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 100%;
+}
+.header__logo {
+	img {
+		width: 200px;
+		display: flex;
+		margin: 0;
+	}
+}
+.header__nav {
+	ul {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		li {
+			padding: 0px 20px;
+		}
+	}
+}

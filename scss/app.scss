@@ -1,5 +1,5 @@
 //general
-@import "./general/tipografia.scss";
+@import "./general/general.scss";
 @import "./general/tipografia.scss";
 
 
@@ -8,11 +8,19 @@
 @import "./layout/header.scss";
 
 //PAGINAS
-@import "./paginas/contacto.scss";
-@import "./paginas/novedades.scss";
-@import "./paginas/productos.scss";
-@import "./paginas/sobre-nosotros.scss";
+@import "./paginas_sass/contacto.scss";
+@import "./paginas_sass/index.scss";
+@import "./paginas_sass/novedades.scss";
+@import "./paginas_sass/productos.scss";
+@import "./paginas_sass/sobre-nosotros.scss";
 
-h1{
-    white-space: inherit;
-}
+
+//ciclo font for 
+// @for $i from 1 to 11{
+//    .fontsize-#{$i}{
+//        font-size: 4px*$i;
+//    }
+//}
+
+
+

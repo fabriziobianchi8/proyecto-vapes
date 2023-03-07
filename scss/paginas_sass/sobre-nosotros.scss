@@ -1,0 +1,36 @@
+.nosotros {
+	max-width: 100%;
+	flex: auto;
+}
+.titulo__nosotros {
+	text-align: center;
+	font-size: 40px;
+	margin-top: 2em;
+}
+.contenedor__nosotros {
+	display: flex;
+	justify-content: center;
+	padding: 1em;
+}
+.cuadro-perfiles {
+	text-align: center;
+	width: 30%;
+	margin: 5em;
+	img {
+		width: 90%;
+	}
+}
+.nombre-persona {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+#banner__nosotros {
+	height: 450px;
+	width: 100%;
+	background-image: url("https://molinochacabuco.com.ar/img/cabezales-sobre-nosotros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,48 @@
+#BodyContactos{
+    
+    height: 100%;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formulario__contactos{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.contendor__contactos{
+    display: flex;
+    
+}
+.texto-div-contactos{
+    width: 40%;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.texto-descriptivo{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.mapa-descriptivo{
+    margin-top: 20px;
+}
+
+
+.formulario__contactos{
+    margin-top: 150px
+}
+
+
+.formulario__contactos input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 17px;
+
+
+}

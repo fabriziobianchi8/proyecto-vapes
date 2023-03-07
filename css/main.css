@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media screen and (max-width: 576px) {
+  .header__logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+    left: calc(36% - 17px);
+    z-index: 1;
+    background-repeat: no-repeat; }
+  #productos {
+    width: 100%;
+    max-width: 576px; } }
+
+@media screen and (min-width: 577px) {
+  .header__logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -25px;
+    left: calc(41% - 17px);
+    z-index: 1;
+    background-repeat: no-repeat; }
+  #productos {
+    width: 100%;
+    max-width: 991px; } }
+
+@media screen and (min-width: 992px) {
+  .header__logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -30%;
+    left: 80%;
+    z-index: 20; }
+  .container-fluid {
+    max-width: 100%; } }
+
+/*FOOTER*/
+footer {
+  background: #111;
+  height: auto;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff; }
+
+.contenedor-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center; }
+  .contenedor-footer h3 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 40px; }
+  .contenedor-footer p {
+    max-width: 100%;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 15px; }
+  .contenedor-footer a {
+    color: #fff; }
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center; }
+  .socials a {
+    text-decoration: none;
+    color: #fff; }
+
+.footer__copyright {
+  background: #000;
+  width: vw;
+  padding: 20px 0;
+  text-align: center; }
+  .footer__copyright p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize; }
+  .footer__copyright span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200; }
+
+header {
+  background-color: beige;
+  padding: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%; }
+
+.header__logo img {
+  width: 200px;
+  display: flex;
+  margin: 0; }
+
+.header__nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex; }
+  .header__nav ul li {
+    padding: 0px 20px; }
+
+#BodyContactos {
+  height: 100%;
+  background-attachment: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.formulario__contactos {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px; }
+
+.contendor__contactos {
+  display: flex; }
+
+.texto-div-contactos {
+  width: 40%;
+  margin-top: 150px;
+  margin-left: 50px;
+  font-size: 30px; }
+
+.texto-descriptivo {
+  margin-top: 20px;
+  font-size: 20px; }
+
+.mapa-descriptivo {
+  margin-top: 20px; }
+
+.formulario__contactos {
+  margin-top: 150px; }
+
+.formulario__contactos input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 17px; }
+
+#banner {
+  height: 250px;
+  background-image: url("https://images.unsplash.com/photo-1536405528985-0ab8ba47f25e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center; }
+
+#productos {
+  margin-top: 40px; }
+  #productos .productos__titulo {
+    text-align: center;
+    font-size: 30px; }
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; }
+
+.tarjeta-producto {
+  padding: 20px; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.tarjeta-producto__precio {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center; }
+
+.tarjeta-producto__imagen {
+  width: 100%; }
+
+.tarjeta-producto__boton {
+  background-color: aqua;
+  color: #000;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto; }
+
+.tarjeta-producto__titulo {
+  text-align: center;
+  justify-content: center;
+  font-size: 20px; }
+
+.banner__novedades {
+  height: 450px;
+  background-image: url(../imagenes/novedades.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center; }
+
+.novedades__titulo {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px; }
+
+.banner__abajo {
+  height: 450px;
+  background-image: url(../imagenes/fotovape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center; }
+
+.blue {
+  text-align: center; }
+
+.blue img {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  max-width: 30%; }
+
+.blue h2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2em; }
+
+.blue p {
+  display: inline-block;
+  max-width: 30%;
+  padding: 2em;
+  vertical-align: middle;
+  text-align: left; }
+
+.nosotros {
+  max-width: 100%;
+  flex: auto; }
+
+.titulo__nosotros {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 2em; }
+
+.contenedor__nosotros {
+  display: flex;
+  justify-content: center;
+  padding: 1em; }
+
+.cuadro-perfiles {
+  text-align: center;
+  width: 30%;
+  margin: 5em; }
+  .cuadro-perfiles img {
+    width: 90%; }
+
+.nombre-persona {
+  font-size: 40px;
+  margin-bottom: 20px; }
+
+#banner__nosotros {
+  height: 450px;
+  width: 100%;
+  background-image: url("https://molinochacabuco.com.ar/img/cabezales-sobre-nosotros.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center; }
