@@ -244,6 +244,22 @@ a {
   vertical-align: middle;
   text-align: left; }
 
+.fondo-p {
+  background-image: url("../imagenes/fondo productos.jpg");
+  width: 100%;
+  background-size: cover;
+  height: fit-content; }
+
+.home__productos .blue img {
+  max-width: 30%; }
+
+.home__productos section {
+  margin: 0;
+  margin-top: 40em; }
+
+.home__productos .margen {
+  margin-top: 10em; }
+
 .nosotros {
   max-width: 100%;
   flex: auto; }
@@ -278,3 +294,33 @@ a {
   background-attachment: fixed;
   display: flex;
   align-items: center; }
+
+.fontsize-1 {
+  font-size: 4px; }
+
+.fontsize-2 {
+  font-size: 8px; }
+
+.fontsize-3 {
+  font-size: 12px; }
+
+.fontsize-4 {
+  font-size: 16px; }
+
+.fontsize-5 {
+  font-size: 20px; }
+
+.fontsize-6 {
+  font-size: 24px; }
+
+.fontsize-7 {
+  font-size: 28px; }
+
+.fontsize-8 {
+  font-size: 32px; }
+
+.fontsize-9 {
+  font-size: 36px; }
+
+.fontsize-10 {
+  font-size: 40px; }

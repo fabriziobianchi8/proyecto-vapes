@@ -1,0 +1,20 @@
+.fondo-p {
+	background-image: url("../imagenes/fondo\ productos.jpg");
+	width: 100%;
+	background-size: cover;
+	height: fit-content;
+}
+.home__productos {
+	.blue {
+		img {
+			max-width: 30%;
+		}
+	}
+	section {
+		margin: 0;
+		margin-top: 40em;
+	}
+	.margen {
+		margin-top: 10em;
+	}
+}
