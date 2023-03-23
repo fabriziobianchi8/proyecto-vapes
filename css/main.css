@@ -117,11 +117,10 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .formulario__contactos {
-  width: 450px;
-  margin: auto;
+  width: 500px;
+  margin: 2em;
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
   border-radius: 8px;
   margin-bottom: 10px; }
 
@@ -129,7 +128,7 @@ header {
   display: flex; }
 
 .texto-div-contactos {
-  width: 40%;
+  width: 80%;
   margin-top: 150px;
   margin-left: 50px;
   font-size: 30px; }
@@ -138,8 +137,8 @@ header {
   margin-top: 20px;
   font-size: 20px; }
 
-.mapa-descriptivo {
-  margin-top: 20px; }
+.mapadescriptivo {
+  margin: 1em 0 2em 0; }
 
 .formulario__contactos {
   margin-top: 150px; }
@@ -251,7 +250,22 @@ a {
   height: fit-content; }
 
 .home__productos .blue img {
-  max-width: 30%; }
+  max-width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2em; }
+
+.home__productos .blue h2 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 2em; }
+
+.home__productos .blue p {
+  display: inline-block;
+  max-width: 30%;
+  padding: 2em;
+  vertical-align: middle;
+  text-align: left; }
 
 .home__productos section {
   margin: 0;
