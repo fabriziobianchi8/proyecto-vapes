@@ -295,6 +295,9 @@ a {
   display: flex;
   align-items: center; }
 
+.imagenPerfiles {
+  width: 80%; }
+
 .fontsize-1 {
   font-size: 4px; }
 
